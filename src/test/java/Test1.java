@@ -18,9 +18,9 @@ public class Test1 {
     }
 
     @Test
-    public void failedTest() {
-        assert (1 == 0);
-        System.out.println("Failed test done");
+    public void notFailedTest() {
+        assert (1 != 0);
+        System.out.println("Not failed test done");
     }
     @AfterMethod
     public void tearDown (){
