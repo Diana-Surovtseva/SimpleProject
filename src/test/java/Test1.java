@@ -5,7 +5,7 @@ import org.testng.annotations.AfterMethod;
 
 
 
-public class SampleTestClass {
+public class Test1 {
     @BeforeMethod
     public void setUp(){
         System.out.println("BeforeMethod run");
